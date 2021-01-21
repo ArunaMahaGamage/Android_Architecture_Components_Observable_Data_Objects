@@ -4,9 +4,9 @@
 
 #Add Below line to App.Gradle
 
-buildFeatures {
-        dataBinding true
-    }
+        buildFeatures {
+                dataBinding true
+        }
     
     
 # Add Fallowing line to Activity

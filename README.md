@@ -20,7 +20,7 @@
         // UI to Model Bind
         binding.user = user
         
-# Add Fallowing line to Activity Layout and set youre layout in '<layot>' Tags
+# Add Fallowing line to Activity Layout and set youre layout in 'layot' Tags
 
         <layout xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"

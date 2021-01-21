@@ -22,37 +22,37 @@
         
 # Add Fallowing line to Activity Layout and set youre layout in '<layot>' Tags
 
-<layout xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <data>
-        <variable name="user" type="com.example.generatedbindingclasses.User"/>
-    </data>
-</layout>
+        <layout xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <data>
+                <variable name="user" type="com.example.generatedbindingclasses.User"/>
+            </data>
+        </layout>
 
 # Add Fallowing line to Model
 
-class User {
+        class User {
 
-    // Observable fields
-    val firstName = ObservableField<String>()
-    val lastName = ObservableField<String>()
-    val age = ObservableInt()
+            // Observable fields
+            val firstName = ObservableField<String>()
+            val lastName = ObservableField<String>()
+            val age = ObservableInt()
 
-    // Observable collections
-    var ObservableArrayMap = ObservableArrayMap<String, Any>().apply {
-        put("firstName", "Google")
-        put("lastName", "Inc.")
-        put("age", 17)
-    }
+            // Observable collections
+            var ObservableArrayMap = ObservableArrayMap<String, Any>().apply {
+                put("firstName", "Google")
+                put("lastName", "Inc.")
+                put("age", 17)
+            }
 
-    // List
-    var observableArrayList = ObservableArrayList<Any>().apply {
-        add("Google")
-        add("Inc.")
-        add(17)
-    }
+            // List
+            var observableArrayList = ObservableArrayList<Any>().apply {
+                add("Google")
+                add("Inc.")
+                add(17)
+            }
 
-    // Observable objects
-    var observableObjects = ObservableObjectsUser()
-}
+            // Observable objects
+            var observableObjects = ObservableObjectsUser()
+        }
